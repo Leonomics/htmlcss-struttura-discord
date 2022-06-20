@@ -8,8 +8,12 @@
 .container  {
     max-width: 1192px;
     margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
+/*sections' backgrounds*/
 .menu-background   {
     display: flex;
     
@@ -22,17 +26,36 @@
     width: vw;
     height: 494px;
     background-color: purple;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .light-background   {
     width: vw;
     height: 601px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .dark-background    {
     width: vw;
     height: 601px;
     background-color: lightgrey;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    align-items: center;
+}
+
+.dark-bigger-background    {
+    width: vw;
+    height: 985px;
+    background-color: lightgrey;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .footer-background    {
@@ -42,6 +65,8 @@
 }
 
 /*content*/
+
+/*menu*/
 nav{
     display: flex;
     justify-content: space-between;
@@ -64,4 +89,30 @@ nav{
     background-color: yellow;
     width: 230px;
     height: 34px;
+}
+
+/*sections*/
+.pink-rectangle {
+    width: 901px;
+    height: 387px;
+    background-color: pink;
+
+}
+
+.green-rectangle    {
+    Width: 1175px;
+    Height: 868px;
+    background-color: green;
+}
+
+.small-rectangle-60perc     {
+    width:703px;
+    height: 491px;
+    background-color: lightskyblue;
+}
+
+.small-rectangle-40perc     {
+    width:472px;
+    height: 491px;
+    background-color: pink;
 }
