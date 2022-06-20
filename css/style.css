@@ -10,34 +10,58 @@
     margin: 0 auto;
 }
 
-header{
+.menu-background   {
     display: flex;
-    flex-direction: row;
+    
+    width: vw;
+    height: 81px;
+    background-color: lightblue;
+}
+
+.purple-background  {
+    width: vw;
+    height: 494px;
+    background-color: purple;
+}
+
+.light-background   {
+    width: vw;
+    height: 601px;
+}
+
+.dark-background    {
+    width: vw;
+    height: 601px;
+    background-color: lightgrey;
+}
+
+.footer-background    {
+    width: vw;
+    height: 601px;
+    background-color: grey;
+}
+
+/*content*/
+nav{
+    display: flex;
     justify-content: space-between;
+    align-items: center;
 }
 
 .logo   {
+    background-color: yellow;
     width: 230px;
     height: 34px;
-    background: rgba(207, 0, 62, 0.5);
 }
 
-nav     {
+.links   {
+    background-color: yellow;
     width: 702px;
     height: 34px;
-    background: rgba(207, 0, 62, 0.5);
 }
 
-.login  {
-    width: 233px;
-    height: 34px;   
-    background: rgba(207, 0, 62, 0.5);
+.login   {
+    background-color: yellow;
+    width: 230px;
+    height: 34px;
 }
-
-.rectangle  {
-    box-sizing: border-box;
-    width: 1192px;
-    height: 409px;
-    border: 5px solid #FF7A00;
-}
-
