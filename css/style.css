@@ -1,0 +1,43 @@
+*   {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/*classe container*/
+.container  {
+    max-width: 1192px;
+    margin: 0 auto;
+}
+
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.logo   {
+    width: 230px;
+    height: 34px;
+    background: rgba(207, 0, 62, 0.5);
+}
+
+nav     {
+    width: 702px;
+    height: 34px;
+    background: rgba(207, 0, 62, 0.5);
+}
+
+.login  {
+    width: 233px;
+    height: 34px;   
+    background: rgba(207, 0, 62, 0.5);
+}
+
+.rectangle  {
+    box-sizing: border-box;
+    width: 1192px;
+    height: 409px;
+    border: 5px solid #FF7A00;
+}
+
