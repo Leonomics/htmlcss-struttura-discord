@@ -13,17 +13,18 @@
     align-items: center;
 }
 
+
+
 /*sections' backgrounds*/
 .menu-background   {
     display: flex;
-    
-    width: vw;
+    width: 100vw;
     height: 81px;
     background-color: lightblue;
 }
 
 .purple-background  {
-    width: vw;
+    width: 100vw;
     height: 494px;
     background-color: purple;
     display: flex;
@@ -32,7 +33,7 @@
 }
 
 .light-background   {
-    width: vw;
+    width: 100vw;
     height: 601px;
     display: flex;
     justify-content: center;
@@ -40,7 +41,7 @@
 }
 
 .dark-background    {
-    width: vw;
+    width: 100vw;
     height: 601px;
     background-color: lightgrey;
     display: flex;
@@ -50,7 +51,7 @@
 }
 
 .dark-bigger-background    {
-    width: vw;
+    width: 100vw;
     height: 985px;
     background-color: lightgrey;
     display: flex;
@@ -59,8 +60,14 @@
 }
 
 .footer-background    {
-    width: vw;
-    height: 601px;
+    width: 100vw;
+    height: 596px;
+    background-color: grey;
+}
+
+.mini-footer-background {
+    width: 100vw;
+    height: 89px;
     background-color: grey;
 }
 
@@ -115,4 +122,43 @@ nav{
     width:472px;
     height: 491px;
     background-color: pink;
+}
+
+.pink-vertical-rectangle    {
+    width:340px;
+    height: 536px;
+    background-color: pink;
+}
+
+.lightblue-vertical-rectangle    {
+    width:193px;
+    height: 536px;
+    background-color: lightskyblue;
+}
+
+hr  {
+    color: white;
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+
+.mini-footer-container  {
+    width: 1192px;
+    Height: 58px;
+    background-color: aqua;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.mini-footer-logo   {
+    width:74px;
+    height: 33px;
+    background-color: yellow;
+}
+
+.mini-footer-button   {
+    width:74px;
+    height: 33px;
+    background-color: yellow;
 }
