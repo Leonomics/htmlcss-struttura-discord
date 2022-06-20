@@ -7,10 +7,12 @@
 /*classe container*/
 .container  {
     max-width: 1192px;
+    min-width: 900px;
     margin: 0 auto;
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-shrink: 10;
 }
 
 
@@ -18,6 +20,8 @@
 /*sections' backgrounds*/
 .menu-background   {
     display: flex;
+    justify-content: center;
+    align-items: center;
     width: 100vw;
     height: 81px;
     background-color: lightblue;
@@ -81,18 +85,21 @@ nav{
 }
 
 .logo   {
+    text-align: center;
     background-color: yellow;
     width: 230px;
     height: 34px;
 }
 
 .links   {
+    text-align: center;
     background-color: yellow;
     width: 702px;
     height: 34px;
 }
 
 .login   {
+    text-align: center;
     background-color: yellow;
     width: 230px;
     height: 34px;
